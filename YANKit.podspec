@@ -79,6 +79,14 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/Yanwei-Feng/Yan_Tool.git", :tag => "#{spec.version}" }
+ p = Dir::open("ios_frameworks")
+  arr = Array.new
+  p.each do |f|
+    if f == '.' || f == '..'
+    else
+        arr.push('ios_frameworks/'+f)
+    end
+  end
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
