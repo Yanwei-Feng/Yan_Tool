@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "YANKit"
+  spec.name         = "Yan_Tool"
   spec.version      = "2.0.0"
   spec.summary      = "A short description of YANKit."
 
@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "冯砚伟" => "fengyanwei@jd.com" }
   # Or just: spec.author    = "冯砚伟"
   # spec.authors            = { "冯砚伟" => "fengyanwei@jd.com" }
-  # spec.social_media_url   = "https://twitter.com/冯砚伟"
+ spec.social_media_url   = "https://twitter.com/冯砚伟"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'Source/**/*.{h,m,c,framework}'
+  spec.source_files  = 'Source/**/*.{h,m,c}'
   spec.exclude_files = "Classes/Exclude"
 
   spec.public_header_files = "Classes/**/*.h"
@@ -136,7 +136,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
