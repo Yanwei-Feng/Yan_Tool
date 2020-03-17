@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'Source/**/*.{h,m,c}'
+  spec.source_files  = 'Yan_Tool.framework/**/*.{h,m,c}'
   spec.exclude_files = "Classes/Exclude"
 
   spec.public_header_files = "Classes/**/*.h"
