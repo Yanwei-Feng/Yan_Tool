@@ -1,0 +1,6 @@
+framework module Yan_Tool {
+  umbrella header "Yan_Tool.h"
+
+  export *
+  module * { export * }
+}
